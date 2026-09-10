@@ -17,4 +17,4 @@ permissions:
 
 jobs:
   publish:
-    uses: GitFabien/platform-demo-lab1/.github/workflows/thedasken/ci.yml@main
+    uses: GitFabien/platform-demo-lab1/.github/workflows/ci-thedasken.yml@main
