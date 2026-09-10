@@ -27,5 +27,3 @@ test("version endpoint returns the package version",async t=>{
   assert.equal(response.statusCode,200);
   assert.deepEqual(response.body,{service:"platform-demo",version});
 });
-
-test("dummy test designed to break the CI",()=>assert.equal());
